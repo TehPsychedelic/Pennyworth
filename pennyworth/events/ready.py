@@ -1,11 +1,6 @@
-import os
 import discord
-from dotenv import load_dotenv
 
-load_dotenv()
-GUILD = os.getenv('DISCORD_GUILD')
-
-def ready_debug_msg(bot):
+def ready_debug_msg(bot, GUILD):
     guild = discord.utils.get(bot.guilds, name=GUILD)
     print(
         f'{bot.user.name} is connected to the following guild:\n'
