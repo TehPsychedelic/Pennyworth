@@ -16,8 +16,9 @@ Instructions made with Void Linux in mind.
 
 ### Application
 Create the file `pennyworth/.env` and configure the following variables:
-DISCORD_TOKEN={your-bot-token}
-DISCORD_GUILD={your-guild-name}
+ - DISCORD_TOKEN={your-bot-token}
+ - DISCORD_GUILD={your-guild-name}
+ - COMMANDS_PREFIX={command-prefix-for-bot-commands}
 
 ## Run
 
